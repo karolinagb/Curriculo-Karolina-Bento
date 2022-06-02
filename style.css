@@ -1,0 +1,49 @@
+header{
+    background: #1a1a1a;
+    padding: 20px 0;
+}
+
+.conteudo-cabecalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagem-cabecalho{
+    width: 15%;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav a::before{
+    content: "<";
+}
+
+nav a::after{
+    content: ">";
+}
+
+nav a:hover{
+    color: #66cc00;
+    transform: scale(1.2);
+    margin: 0 1em 0 1em;
+}
