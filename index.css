@@ -1,0 +1,11 @@
+main{
+    /* height: 100vh; dá ao elemento a altura total do viewport (área visível da janela): */
+    /* Assim o main vai ocupar todo o espaço de visualização dele */
+    height: 100vh;
+    background: #CCCCCC;
+}
+.titulo-principal{
+    text-align: center;
+    padding: 1em 0 0;
+    margin: 0 0 1em;
+}
