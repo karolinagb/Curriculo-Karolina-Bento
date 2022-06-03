@@ -2,10 +2,40 @@ main{
     /* height: 100vh; dá ao elemento a altura total do viewport (área visível da janela): */
     /* Assim o main vai ocupar todo o espaço de visualização dele */
     height: 100vh;
-    background: #CCCCCC;
+    background: #001a00;
+    padding-top: 2em;
 }
+
+.principal{
+    /* width: 1200px; */
+    margin: 0 10px 30px;
+    box-shadow: inset 0 0 30px #66cc00;
+    color: white;
+    padding: 0 20px 20px;
+    
+}
+
 .titulo-principal{
     text-align: center;
     padding: 1em 0 0;
     margin: 0 0 1em;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.texto-principal{
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.texto-principal span{
+    color: #66cc00;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.texto-principal span:hover{
+    text-decoration: underline;
 }
