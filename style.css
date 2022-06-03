@@ -52,6 +52,9 @@ footer{
     /* text-align: center; */
     background: #1a1a1a;
     padding: 40px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .copyright {
