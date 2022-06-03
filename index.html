@@ -27,8 +27,18 @@
 
         </header>
 
-        <main></main>
+        <main>Teste</main>
 
-        <footer></footer>
+        <footer>
+            <p class="copyright">&copy; Copyright Karolina Bento - <b id="current-date"></b> </p>
+        </footer>
+
+
+        <script>
+            date = new Date();
+            year = date.getFullYear();
+            document.getElementById("current-date").innerHTML = year;
+        </script>
+
     </body>
 </html>

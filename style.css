@@ -47,3 +47,17 @@ nav a:hover{
     transform: scale(1.2);
     margin: 0 1em 0 1em;
 }
+
+footer{
+    /* text-align: center; */
+    background: #1a1a1a;
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    display: flex; /*Define o elemento como flexível*/
+    justify-content: center;
+    /* align-items: center; - Alinha na vertical  */
+}
