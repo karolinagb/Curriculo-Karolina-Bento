@@ -1,12 +1,16 @@
 main{
     /* height: 100vh; dá ao elemento a altura total do viewport (área visível da janela): */
+
+    height: 100%;
+    width: 100%;
+    background: #001a00;
     /* Assim o main vai ocupar todo o espaço de visualização dele */
     padding-top: 2em;
 }
 
 .principal{
     /* width: 1200px; */
-    margin: 0 10px 30px;
+    margin: 0 10px 10px;
     box-shadow: inset 0 0 30px #66cc00;
     color: white;
     padding: 0 20px 20px;
@@ -37,3 +41,35 @@ main{
 .texto-principal span:hover{
     text-decoration: underline;
 }
+
+.contatos{
+    color: white;
+    margin-left: 20px;
+}
+
+.contatos .titulo-principal{
+    margin: 0 0 15px;
+}
+
+.texto-contatos{
+    font-size: 22px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.item-lista-contatos{
+    display: inline-block;
+    line-height: 3;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.item-lista-contatos a:link{
+    color: #66cc00;
+}
+
+.item-lista-contatos a:visited{
+    color: blue;
+    text-decoration: underline;
+}
+
