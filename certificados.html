@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Certificados</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="certificados.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="conteudo-cabecalho">
+            <img src="1.jpeg" alt="Foto de perfil para currículo" class="imagem-cabecalho">
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Sobre</a></li>
+                    <li><a href="certificados.html">Certificados</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="principal">
+            <ul class="certificados">
+                <li>
+                    <div class="texto-certificados">
+                        <p>Graduação tecnológica em Análise e Desenvolvimento de Sistemas</p>
+                        <p>Conclusão: 06/22</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="texto-certificados">
+                        <p>HTML5 e CSS3 Parte 4: Avançando no CSS – Alura</p>
+                        <p>Conclusão: 06/22</p>
+                    </div>
+                    <a class="botao-certificados" href="https://cursos.alura.com.br/certificate/2112602a-8dc2-444c-8e1b-6752b5cedc83" target="_blank">
+                    Certificado
+                    </a>
+                </li>
+
+               
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy; Copyright Karolina Bento - <b id="current-date"></b> </p>
+    </footer>
+
+    <script>
+        date = new Date();
+        year = date.getFullYear();
+        document.getElementById("current-date").innerHTML = year;
+    </script>
+
+    <!-- Instalação direta do font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" 
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" 
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>

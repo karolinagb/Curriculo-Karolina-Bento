@@ -1,0 +1,46 @@
+main{
+    /* height: 100vh; dá ao elemento a altura total do viewport (área visível da janela): */
+
+    height: 100%;
+    width: 100%;
+    background: #001a00;
+    background-size: 100%;
+    /* Assim o main vai ocupar todo o espaço de visualização dele */
+    padding: 2em 0;
+}
+
+.principal{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.certificados li{
+    padding: 15px;
+    box-shadow: inset 0 0 10px #66cc00;
+    margin: 5px 0 0;
+}
+
+.texto-certificados{
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: white;
+}
+
+.botao-certificados{
+    padding: 10px;
+    background: #66cc00;
+    /* Coloca o elemento na direta */
+    float: right;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #001a00;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+}
+
+.botao-certificados:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
