@@ -26,14 +26,136 @@
     <main>
         <section class="principal">
 
-            <!-- <a class="input-tecnologias">HTML5 e CSS3</a>
-            <a class="input-tecnologias">C# - ASP.NET Core</a>
-            <a class="input-tecnologias">Java Scrip</a> -->
+            <!-- href="#" - aponta para a propria pagina e não atualiza e retorna para o topo da pagina -->
+            <!-- javascript:void(0) - o link vai ser usado para o js e não encaminha pra outra parte da pagina -->
+            <a class="input-tecnologias ativo" href="javascript:void(0)" onclick="mostrarCertificados('html-css');">HTML5 e CSS3</a>
+            <a class="input-tecnologias" href="javascript:void(0)" onclick="mostrarCertificados('csharp-asp');">C# - ASP.NET Core</a>
+            <a class="input-tecnologias" href="javascript:void(0)" onclick="mostrarCertificados('javascript');">Javascript</a>
           
-            <ul class="certificados">
+            <ul class="certificados ativo" id="html-css">
                 <li>
                     <div class="texto-certificados">
                         <p>Graduação tecnológica em Análise e Desenvolvimento de Sistemas</p>
+                        <p>Conclusão: 06/22</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="texto-certificados">
+                        <p>HTML5 e CSS3 Parte 4: Avançando no CSS – Alura</p>
+                        <p>Conclusão: 06/22</p>
+                    </div>
+                    <a class="botao-certificados" href="https://cursos.alura.com.br/certificate/2112602a-8dc2-444c-8e1b-6752b5cedc83" target="_blank">
+                    Certificado
+                    </a>
+                </li>
+
+                <li>
+                    <div class="texto-certificados">
+                        <p>HTML5 e CSS3 Parte 3: Trabalhando com formulários e tabelas – Alura</p>
+                        <p>Conclusão: 05/22</p>
+                    </div>
+                    <a class="botao-certificados" href="https://cursos.alura.com.br/certificate/a6b1f11c-a588-4102-8b12-47c81f5392ba" target="_blank">
+                    Certificado
+                    </a>
+                </li>
+
+                <li>
+                    <div class="texto-certificados">
+                        <p>Entity LINQ Parte 1: Crie Queries Poderosa Em C# – Alura</p>
+                        <p>Conclusão: 05/22</p>
+                    </div>
+                    <a class="botao-certificados" href="https://cursos.alura.com.br/certificate/c962b1df-9e47-4252-9d3a-2f0096cf686e" target="_blank">
+                    Certificado
+                    </a>
+                </li>
+
+                <li>
+                    <div class="texto-certificados">
+                        <p>Solid com C#: Princípios da programação orientada a objetos – Alura</p>
+                        <p>Conclusão: 05/22</p>
+                    </div>
+                    <a class="botao-certificados" href="https://cursos.alura.com.br/certificate/85207f0c-85b2-4db8-8b26-93f3171346f0" target="_blank">
+                    Certificado
+                    </a>
+                </li>
+
+                <li>
+                    <div class="texto-certificados">
+                        <p>HTML5 e CSS3 Parte 1: A primeira página da Web – Alura</p>
+                        <p>Conclusão: 03/22</p>
+                    </div>
+                    <a class="botao-certificados" href="https://cursos.alura.com.br/certificate/7081bdd5-438d-49b5-8e10-23c022389f6e" target="_blank">
+                    Certificado
+                    </a>
+                </li>
+
+            </ul>
+            
+            <ul class="certificados" id="csharp-asp">
+                <li>
+                    <div class="texto-certificados">
+                        <p>Teste c# Graduação tecnológica em Análise e Desenvolvimento de Sistemas</p>
+                        <p>Conclusão: 06/22</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="texto-certificados">
+                        <p>HTML5 e CSS3 Parte 4: Avançando no CSS – Alura</p>
+                        <p>Conclusão: 06/22</p>
+                    </div>
+                    <a class="botao-certificados" href="https://cursos.alura.com.br/certificate/2112602a-8dc2-444c-8e1b-6752b5cedc83" target="_blank">
+                    Certificado
+                    </a>
+                </li>
+
+                <li>
+                    <div class="texto-certificados">
+                        <p>HTML5 e CSS3 Parte 3: Trabalhando com formulários e tabelas – Alura</p>
+                        <p>Conclusão: 05/22</p>
+                    </div>
+                    <a class="botao-certificados" href="https://cursos.alura.com.br/certificate/a6b1f11c-a588-4102-8b12-47c81f5392ba" target="_blank">
+                    Certificado
+                    </a>
+                </li>
+
+                <li>
+                    <div class="texto-certificados">
+                        <p>Entity LINQ Parte 1: Crie Queries Poderosa Em C# – Alura</p>
+                        <p>Conclusão: 05/22</p>
+                    </div>
+                    <a class="botao-certificados" href="https://cursos.alura.com.br/certificate/c962b1df-9e47-4252-9d3a-2f0096cf686e" target="_blank">
+                    Certificado
+                    </a>
+                </li>
+
+                <li>
+                    <div class="texto-certificados">
+                        <p>Solid com C#: Princípios da programação orientada a objetos – Alura</p>
+                        <p>Conclusão: 05/22</p>
+                    </div>
+                    <a class="botao-certificados" href="https://cursos.alura.com.br/certificate/85207f0c-85b2-4db8-8b26-93f3171346f0" target="_blank">
+                    Certificado
+                    </a>
+                </li>
+
+                <li>
+                    <div class="texto-certificados">
+                        <p>HTML5 e CSS3 Parte 1: A primeira página da Web – Alura</p>
+                        <p>Conclusão: 03/22</p>
+                    </div>
+                    <a class="botao-certificados" href="https://cursos.alura.com.br/certificate/7081bdd5-438d-49b5-8e10-23c022389f6e" target="_blank">
+                    Certificado
+                    </a>
+                </li>
+
+            </ul>
+
+            <ul class="certificados" id="javascript">
+                <li>
+                    <div class="texto-certificados">
+                        <p>Teste Karol Graduação tecnológica em Análise e Desenvolvimento de Sistemas</p>
                         <p>Conclusão: 06/22</p>
                     </div>
                 </li>
@@ -100,6 +222,18 @@
         date = new Date();
         year = date.getFullYear();
         document.getElementById("current-date").innerHTML = year;
+
+        document.getElementsByClassName("input-tecnologias ativo")[0].focus();
+
+        function mostrarCertificados(elementID)
+        {
+            //getElementsByClassName() - procura uma lista de elementos que possui as classes específicadas abaixo juntas na mesma tag
+            //O [0] é porque essa função retorna um array, então pegamos a posição zero pois só temos 1 elemento na página com active
+            //className é a propriedade do nome da classe, quando atribuimos "certificados" o que tinha antes é substituído
+            document.getElementsByClassName('certificados ativo')[0].className = "certificados";
+            //Agora meu elemento clicado que receberá as 2 classes a fim de mostrar o conteúdo
+            document.getElementById(elementID).className = "certificados ativo";
+        }
     </script>
 
     <!-- Instalação direta do font awesome -->

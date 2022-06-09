@@ -14,12 +14,10 @@ main{
     margin: 0 auto;
 }
 
-/* .input-tecnologias{
-    background: #66cc00;
+.input-tecnologias{
+    background: #001a00;
     border-radius: 5px;
     text-decoration: none;
-    color: #001a00;
-    /* font-family: 'Press Start 2P', cursive; */
     font-family: 'Zen Kaku Gothic New', sans-serif;
     color: white;
     text-transform: uppercase;
@@ -28,16 +26,30 @@ main{
     display: inline-block;
     font-size: 22px;
     text-align: center;
-} */
+}
 
 .input-tecnologias:hover{
     cursor: pointer;
+}
+
+.input-tecnologias:focus{
+    /* outline: 0; */
+    background: #66cc00;
+}
+
+/* not() = todo mundo que tem a classe certificados e nao tem ativo */
+.certificados:not(.ativo){
+    display: none;
 }
 
 .certificados li{
     padding: 15px;
     box-shadow: inset 0 0 10px #66cc00;
     margin: 5px 0 0;
+}
+
+.certificados .ativo{
+    display: "";
 }
 
 .texto-certificados{
