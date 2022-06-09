@@ -14,7 +14,7 @@ main{
     margin: 0 auto;
 }
 
-.input-tecnologias{
+/* .input-tecnologias{
     background: #66cc00;
     border-radius: 5px;
     text-decoration: none;
@@ -28,19 +28,11 @@ main{
     display: inline-block;
     font-size: 22px;
     text-align: center;
-}
+} */
 
 .input-tecnologias:hover{
     cursor: pointer;
 }
-
-/* div.itens-tecnologias ul{
-    display: none;
-}
-
-div.itens-tecnologias ul:target{
-    display: block;
-} */
 
 .certificados li{
     padding: 15px;
