@@ -1,7 +1,8 @@
 main{
     /* height: 100vh; dá ao elemento a altura total do viewport (área visível da janela): */
 
-    height: 100%;
+    /* height: 100%; */
+    height: 100vh;
     width: 100%;
     background: #001a00;
     background-size: 100%;
