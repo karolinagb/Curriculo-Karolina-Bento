@@ -10,6 +10,19 @@ main{
     padding: 2em 0;
 }
 
+.curriculo-cabecalho{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 22px;
+}
+
+.curriculo-cabecalho:hover{
+    color: #66cc00;
+    transform: scale(1.2);
+}
+
 .principal{
     width: 940px;
     margin: 0 auto;
